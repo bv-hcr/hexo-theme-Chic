@@ -1,0 +1,39 @@
+<div class="container">
+    <div class="intro">
+        <div class="avatar">
+            <a href="<%- url_for(theme.nav.Posts) %>"><img src="<%- url_for(theme.avatar) %>"></a>
+            <!--
+            <a href="<%- url_for(theme.nav.Posts) %>"><img src="<%- url_for(theme.avatar) %>" style="border-radius: 50%;" width="180px;"></a>
+            -->
+        </div>
+        <div class="nickname"><%- theme.nickname %></div>
+
+        <!--
+        <div class="description"><%- markdown(theme.realname) %></div>
+        <div class="description"><%- markdown(theme.description) %></div>
+        <div class="description">一枚互粘网SRE, 两轮运动爱好者, 人近中年的油腻蜀黍</div>
+        -->
+        <article class="post-wrap">
+        <div class="post-content">
+        韩超然，花名「十九」。七年SRE，专注于公有云、私有云四/七层负载均衡、CDN。
+        </div>
+        </article>
+        <!--
+        <div class="links">
+            <% if (theme.links !== undefined) { %>
+                <% for (var key in theme.links){ %>
+                    <a class="link-item" title="<%- key %>" href="<%= theme.links[key] %>">
+                        <% if(theme.links_text_enable) { %>
+                            <%= key %>
+                        <%}%>
+                        <%if(theme.links_icon_enable){ %>
+                            <i class="iconfont icon-<%- key.toLowerCase() %>"></i>
+                        <%}%>
+                    </a>
+                <% } %>
+            <% } %>
+        </div>
+        -->
+    </div>
+</div>
+

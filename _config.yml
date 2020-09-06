@@ -1,5 +1,5 @@
 # Header
-navname: Bentham's Blog
+navname: NameSpace
 
 # navigatior items
 nav:
@@ -7,25 +7,28 @@ nav:
   Categories: /category
   Tags: /tag
   About: /about
+  Friends: /friends
+  Theory: /m-theory
 
 # favicon
-favicon: /favicon.ico
+favicon: /avatar/arrowhead.png?size=32
 
 # Profile
-nickname: Jeremy Bentham
+nickname: 十九同学
 
 ### this variable is MarkDown form.
-description: Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** <br>Fusce eget urna vitae velit *eleifend interdum at ac* nisi.
-avatar: /image/avatar.jpeg
+description: 平静并对明天有期待感
+avatar: /avatar/018ff05a682e50a80120a123ecd673.jpg?size=300
 
+realname: 韩超然
 # main menu navigation
 ## links key words should not be changed.
 ## Complete url after key words.
 ## Unused key can be commented out.
 links:
   Blog: /archives
-  # Category:
-  # Tags: 
+  Category: /category
+  Tags: tag/
   # Link:
   # Resume:
   # Publish:
@@ -33,7 +36,7 @@ links:
   # Gallery:
   # RSS:
   # AliPay:
-  ZhiHu: https://www.zhihu.com/people/sirice
+  ZhiHu: https://www.zhihu.com/people/bi-hua-73-89
   # LinkedIn:
   # FaceBook:
   # Twitter:
@@ -47,9 +50,9 @@ links:
   Reddit:
   # YouTube:
   # QQ:
-  # Weibo:
+  Weibo: https://weibo.com/u/3242528787
   # WeChat:
-  Github: https://github.com/Siricee
+  Github: https://github.com/bv-hcr
 
 # how links show: you have 2 choice--text or icon.
 links_text_enable: false
@@ -65,11 +68,11 @@ post_category_enable: true
 ## Post copyright
 post_copyright_enable: true
 
-post_copyright_author_enable: true
-post_copyright_permalink_enable: true
+post_copyright_author_enable: false
+post_copyright_permalink_enable: false
 post_copyright_license_enable: true
 post_copyright_license_text: Copyright (c) 2019 <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC-4.0</a> LICENSE
-post_copyright_slogan_enable: true
+post_copyright_slogan_enable: false
 post_copyright_slogan_text: Do you believe in <strong>DESTINY</strong>?
 ## toc
 post_toc_enable: true
@@ -92,6 +95,7 @@ stylesheets:
 scripts:
   - /js/script.js
   - /js/tocbot.min.js
+  # - /js/reject.js
     # tscanlin/tocbot: Build a table of contents from headings in an HTML document.
     # https://github.com/tscanlin/tocbot
 
@@ -104,3 +108,29 @@ mathjax:
   import: demand # global or demand
   ## global: all pages will load mathjax,this will degrade performance and some grammers may be parsed wrong.
   ## demand: Recommend option,if your post need fomula, you can declare 'mathjax: true' in Front-matter
+# visitors count
+counter: true
+
+links2: true
+links2_parament:
+  左耳朵耗子:
+    vname: 左耳朵耗子
+    description: 左耳朵耗子
+    link: https://coolshell.cn/
+    avatar: https://coolshell.cn/wp-content/uploads/2011/03/me.jpg
+  桃子:
+    vname: 桃子
+    description: 风止于秋水，我止于你
+    link: https://blog.twofei.com/
+    avatar: https://blog.twofei.com/v2/avatar?4aea69439176f648b262c24870db66cf%3Fd%3Dmm%26s%3D48
+  ChengweiWords:
+    vname: Chengwei's Words
+    description: hello world
+    link: http://www.chengweiyang.cn/
+    avatar: http://www.chengweiyang.cn/assets/images/avata.png
+  绘画拾玖:
+    vname: 拾玖(同名诶)
+    description: 绘画是一场美梦
+    link: http://oct1019.lofter.com/
+    avatar: http://avaimg.nosdn0.126.net/img/L2srUlRaaXNDQ1N6NWVUV2tNMzJhb01kSmZyQ081N2t3MnEvOFJ3ZXZwVndlNFFud2NSZlpRPT0.jpg?imageView
+
